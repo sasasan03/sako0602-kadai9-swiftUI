@@ -11,7 +11,7 @@
 		69FDF20229532D3D0021FCF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF20129532D3D0021FCF7 /* ContentView.swift */; };
 		69FDF20429532D410021FCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FDF20329532D410021FCF7 /* Assets.xcassets */; };
 		69FDF20729532D410021FCF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FDF20629532D410021FCF7 /* Preview Assets.xcassets */; };
-		69FDF22A29532F820021FCF7 /* PrefecturesSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF22929532F810021FCF7 /* PrefecturesSelectedView.swift */; };
+		69FDF22A29532F820021FCF7 /* PrefectureSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF22929532F810021FCF7 /* PrefectureSelectedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		69FDF20629532D410021FCF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FDF20C29532D410021FCF7 /* Kadai9-sako0602-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai9-sako0602-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FDF21629532D410021FCF7 /* Kadai9-sako0602-swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai9-sako0602-swiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FDF22929532F810021FCF7 /* PrefecturesSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesSelectedView.swift; sourceTree = "<group>"; };
+		69FDF22929532F810021FCF7 /* PrefectureSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureSelectedView.swift; sourceTree = "<group>"; };
 		69FDF22B295331D30021FCF7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 			children = (
 				69FDF1FF29532D3D0021FCF7 /* Kadai9_sako0602_swiftUIApp.swift */,
 				69FDF20129532D3D0021FCF7 /* ContentView.swift */,
-				69FDF22929532F810021FCF7 /* PrefecturesSelectedView.swift */,
+				69FDF22929532F810021FCF7 /* PrefectureSelectedView.swift */,
 				69FDF22B295331D30021FCF7 /* MyPlayground.playground */,
 				69FDF20329532D410021FCF7 /* Assets.xcassets */,
 				69FDF20529532D410021FCF7 /* Preview Content */,
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FDF20229532D3D0021FCF7 /* ContentView.swift in Sources */,
-				69FDF22A29532F820021FCF7 /* PrefecturesSelectedView.swift in Sources */,
+				69FDF22A29532F820021FCF7 /* PrefectureSelectedView.swift in Sources */,
 				69FDF20029532D3D0021FCF7 /* Kadai9_sako0602_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
