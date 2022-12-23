@@ -11,9 +11,7 @@
 		69FDF20229532D3D0021FCF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF20129532D3D0021FCF7 /* ContentView.swift */; };
 		69FDF20429532D410021FCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FDF20329532D410021FCF7 /* Assets.xcassets */; };
 		69FDF20729532D410021FCF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FDF20629532D410021FCF7 /* Preview Assets.xcassets */; };
-		69FDF21129532D410021FCF7 /* Kadai9_sako0602_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF21029532D410021FCF7 /* Kadai9_sako0602_swiftUITests.swift */; };
-		69FDF21B29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF21A29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITests.swift */; };
-		69FDF21D29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF21C29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITestsLaunchTests.swift */; };
+		69FDF22A29532F820021FCF7 /* PrefecturesSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FDF22929532F810021FCF7 /* PrefecturesSelectedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +38,9 @@
 		69FDF20329532D410021FCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FDF20629532D410021FCF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FDF20C29532D410021FCF7 /* Kadai9-sako0602-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai9-sako0602-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FDF21029532D410021FCF7 /* Kadai9_sako0602_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai9_sako0602_swiftUITests.swift; sourceTree = "<group>"; };
 		69FDF21629532D410021FCF7 /* Kadai9-sako0602-swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai9-sako0602-swiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FDF21A29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai9_sako0602_swiftUIUITests.swift; sourceTree = "<group>"; };
-		69FDF21C29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai9_sako0602_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69FDF22929532F810021FCF7 /* PrefecturesSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesSelectedView.swift; sourceTree = "<group>"; };
+		69FDF22B295331D30021FCF7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				69FDF1FE29532D3D0021FCF7 /* Kadai9-sako0602-swiftUI */,
-				69FDF20F29532D410021FCF7 /* Kadai9-sako0602-swiftUITests */,
-				69FDF21929532D410021FCF7 /* Kadai9-sako0602-swiftUIUITests */,
 				69FDF1FD29532D3D0021FCF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +91,8 @@
 			children = (
 				69FDF1FF29532D3D0021FCF7 /* Kadai9_sako0602_swiftUIApp.swift */,
 				69FDF20129532D3D0021FCF7 /* ContentView.swift */,
+				69FDF22929532F810021FCF7 /* PrefecturesSelectedView.swift */,
+				69FDF22B295331D30021FCF7 /* MyPlayground.playground */,
 				69FDF20329532D410021FCF7 /* Assets.xcassets */,
 				69FDF20529532D410021FCF7 /* Preview Content */,
 			);
@@ -108,23 +105,6 @@
 				69FDF20629532D410021FCF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		69FDF20F29532D410021FCF7 /* Kadai9-sako0602-swiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				69FDF21029532D410021FCF7 /* Kadai9_sako0602_swiftUITests.swift */,
-			);
-			path = "Kadai9-sako0602-swiftUITests";
-			sourceTree = "<group>";
-		};
-		69FDF21929532D410021FCF7 /* Kadai9-sako0602-swiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				69FDF21A29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITests.swift */,
-				69FDF21C29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITestsLaunchTests.swift */,
-			);
-			path = "Kadai9-sako0602-swiftUIUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FDF20229532D3D0021FCF7 /* ContentView.swift in Sources */,
+				69FDF22A29532F820021FCF7 /* PrefecturesSelectedView.swift in Sources */,
 				69FDF20029532D3D0021FCF7 /* Kadai9_sako0602_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FDF21129532D410021FCF7 /* Kadai9_sako0602_swiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FDF21B29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITests.swift in Sources */,
-				69FDF21D29532D410021FCF7 /* Kadai9_sako0602_swiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

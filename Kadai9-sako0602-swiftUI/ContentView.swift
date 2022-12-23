@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showingSheet = false
+    @State private var selectedPrefecture = "未選択"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HStack {
+            Text("都道府県")
+                .padding()
+            Text(selectedPrefecture)
+                .padding()
+            Button("入力"){
+                showingSheet = true
+            }
+            .padding()
         }
-        .padding()
+        .sheet(isPresented: $showingSheet) {
+            PrefecturesSelectedView(showingSheet: $showingSheet, selectedPrefecture: $selectedPrefecture)
+        }
     }
 }
 
